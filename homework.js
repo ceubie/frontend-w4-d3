@@ -43,7 +43,7 @@ function Book(title, author, pages) {
   console.log(library[0].displayInfo());
   console.log(searchBooksByTitle("1984"));
   console.log(searchBooksByAuthor("George Orwell"));
-  console.log(filterBooksByPageCount(100));
+  console.log(filterBooksByPageCount(200));
   console.log(mapBooksTitleAndAuthor());
   
   function Account(accountNumber, balance, owner) {
